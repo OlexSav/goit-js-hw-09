@@ -21,7 +21,7 @@ img {
   background: #7ba7e0;
   border-color: #212121;
 
-  width: 200px;
+  width: 280px;
   height: 40px;
   border-radius: 15px;
   border: 0;
@@ -30,7 +30,8 @@ img {
   font-size: 15px;
 }
 
-[data-start] {
+.start {
+  width: 70px;
   border-radius: 15px;
   text-align: center;
   background: #7ba7e0;
@@ -42,18 +43,17 @@ img {
 
 .timer {
   display: flex;
-  flex-direction: column;
-  gap: 25px;
+  gap: 15px;
   margin-top: 20px;
 }
 
 .field {
-  width: 120px;
+  display: inline-block;
   text-align: center;
   border: 0;
-  border-radius: 15px;
+  border-radius: 10px;
   background: #2d7799;
   color: #fff;
-  padding: 8px 5px;
-  font-size: 18px;
+  padding: 4px 4px;
+  font-size: 16px;
 }
