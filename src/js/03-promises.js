@@ -10,7 +10,7 @@ function onSubmit(e) {
   let qtyStep = Number(document.querySelector('.step').value);
   let qtyAmount = Number(document.querySelector('.amount').value);
 
-  for (let i = 0; i < qtyAmount; i += 1) {
+  for (let i = 1; i <= qtyAmount; i += 1) {
     createPromise(i, firstDelay)
       .then(({ position, delay }) => {
         Notify.success(`✅ Fulfilled promise ${position} in ${delay}ms`);
